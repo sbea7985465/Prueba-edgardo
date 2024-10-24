@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+
+    <style>
+
+        .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; 
+        gap: 200px; 
+        }
+
+        .form-container img {
+            display: flex;
+            height: 500px;
+            width: 500px;
+            align-items: left;
+        }
+
+        form {
+            margin-right: 200px; 
+        }
+       
+
+        .extras{
+            background-color: rgba(54, 48, 48, 0.719);
+        }
+        
+        .form-container{
+            color: aliceblue;
+        }
+
+        .extras{
+            color: aliceblue;
+        }
+
+        .titulo{
+            text-align: center;
+        }
+
+        .servicios{
+            height: 300px;
+        }
+        
+    </style>
+
+    
+    
+    <div class="extras">
+        <div class="titulo">
+            <h1>Formulario de Inicio</h1>
+        </div>
+
+        <section class="servicios">
+            <h1>Instalacion de Sistemas Operativo</h1>
+            <h1>Instalacion de Software de Oficina  </h1>
+            <h1>Reparacion de Computadoras</h1>
+        </section>
+        <div class="form-container">
+            <img src="assets/img/logo.png" alt="logo">
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+    
+      
+      
+      
+</body>
+</html>
